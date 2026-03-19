@@ -4,9 +4,9 @@ import mysql.connector
 
 # Connect to AWS RDS
 conn = mysql.connector.connect(
-    host="YOUR_RDS_ENDPOINT",
+    host="lassdb.cvkcoy06qlcg.ap-south-1.rds.amazonaws.com",
     user="admin",
-    password="YOUR_PASSWORD",
+    password="Welcome123",
     database="company_db"
 )
 
